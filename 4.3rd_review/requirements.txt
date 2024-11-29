@@ -1,0 +1,8 @@
+watchdog
+streamlit
+numpy
+pandas
+db-sqlite3
+scikit-learn
+matplotlib
+seaborn
