@@ -64,11 +64,13 @@ pip install streamlit pandas numpy scikit-learn plotly openpyxl
 ```
 
 3.Configure Streamlit theme: Create .streamlit/config.toml:
+```
 [theme]
 primaryColor="#FF4081"
 backgroundColor="#E8F5E9"
 secondaryBackgroundColor="#B9F6CA"
 textColor="#000000"
+```
 
 ## Running the Application
 1.Start Student Portal:
