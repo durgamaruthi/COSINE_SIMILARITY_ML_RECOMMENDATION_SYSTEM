@@ -34,7 +34,19 @@ Available Course Codes:
 CSE228, CSE3114, CSE3005, CSE3115, CSE3014, CSE3112, CSE243, CSE3111, CSE6002, BCA217, CSA3020, CSE3113, CSE3134, CSE3001, CSE3036, CSE5006, CSE3106, CSE2037, CSE2039, MAT1002, CSE3152, CSE2060, CSE2015, CSE3087
 
 ## Project Structure
-elective_system/ │ ├── .streamlit/ │ └── config.toml # Streamlit configuration │ ├── database.py # Database operations ├── recsys.py # Recommendation engine ├── student.py # Student interface ├── hod.py # HOD interface ├── faculty.py # Faculty interface ├── main.xlsx # Dataset └── requirements.txt # Dependencies
+elective_system/
+│
+├── .streamlit/
+│   └── config.toml
+│
+├── database.py
+├── recsys.py
+├── student.py
+├── hod.py
+├── faculty.py
+├── main.xlsx
+└── requirements.txt
+
 
 ## Setup Instructions
 
@@ -74,81 +86,81 @@ streamlit run faculty.py
 ## Module Descriptions
 
 ## database.py
-Manages SQLite database operations
-Handles course and enrollment data
-Controls seat allocation
-Provides data consistency
+-Manages SQLite database operations
+-Handles course and enrollment data
+-Controls seat allocation
+-Provides data consistency
 ## recsys.py
-Implements collaborative filtering
-Processes student performance data
-Generates course recommendations
-Ensures dynamic computation
+-Implements collaborative filtering
+-Processes student performance data
+-Generates course recommendations
+-Ensures dynamic computation
 
 ## student.py
-Displays personalized recommendations
-Manages course enrollment
-Shows real-time seat availability
-Maintains session state
+-Displays personalized recommendations
+-Manages course enrollment
+-Shows real-time seat availability
+-Maintains session state
 
 ## hod.py
-Controls course capacity
-Monitors enrollment statistics
-Provides data visualization
-Enables administrative actions
+-Controls course capacity
+-Monitors enrollment statistics
+-Provides data visualization
+-Enables administrative actions
 
 ## faculty.py
-Tracks student enrollments
-Generates course reports
-Exports enrollment data
-Visualizes course statistics
+-Tracks student enrollments
+-Generates course reports
+-Exports enrollment data
+-Visualizes course statistics
 
 ## User Workflows
 
 ## Student Flow
-Enter roll number
-View personalized recommendations
-Check seat availability
-Enroll in courses
-Receive confirmation
+-Enter roll number
+-View personalized recommendations
+-Check seat availability
+-Enroll in courses
+-Receive confirmation
 
 ## HOD Flow
-Monitor course enrollments
-Adjust seat capacity
-View enrollment statistics
-Manage course data
-Export reports
+-Monitor course enrollments
+-Adjust seat capacity
+-View enrollment statistics
+-Manage course data
+-Export reports
 
 ## Faculty Flow
-Select courses to monitor
-View enrolled students
-Search specific enrollments
-Download course reports
-Track seat availability
+-Select courses to monitor
+-View enrolled students
+-Search specific enrollments
+-Download course reports
+-Track seat availability
 
 ## Technical Considerations
 
 ## Performance
-Real-time recommendation computation
-Optimized database queries
-Efficient session management
-Concurrent user handling
+-Real-time recommendation computation
+-Optimized database queries
+-Efficient session management
+-Concurrent user handling
 
 ## Security
-Hashed student identifiers
-Thread-safe database operations
-Role-based access control
-Session state management
+-Hashed student identifiers
+-Thread-safe database operations
+-Role-based access control
+-Session state management
 
 ## Scalability
-Modular code structure
-Independent interfaces
-Extensible database schema
-Configurable parameters
+-Modular code structure
+-Independent interfaces
+-Extensible database schema
+-Configurable parameters
 
 ## Constraints and Limitations
-Real-time updates may have slight delay
-Recommendations based on available historical data
-System requires active internet connection
+-Real-time updates may have slight delay
+-Recommendations based on available historical data
+-System requires active internet connection
 
 ## License
 
