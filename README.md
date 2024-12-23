@@ -1,4 +1,4 @@
-# Elective Course Recommendation System - Presidency University
+# Cosine Similairty Collaborative filtering Elective Course Recommendation System - Presidency University
 
 ## Overview
 An ML recommendation system designed to assist Presidency University students in selecting elective courses based on their academic performance, preferences, and real-time seat availability. The system features dynamic interfaces for students, HODs, and faculty members, providing a streamlined experience for course recommendations and management.
@@ -34,6 +34,7 @@ Available Course Codes:
 CSE228, CSE3114, CSE3005, CSE3115, CSE3014, CSE3112, CSE243, CSE3111, CSE6002, BCA217, CSA3020, CSE3113, CSE3134, CSE3001, CSE3036, CSE5006, CSE3106, CSE2037, CSE2039, MAT1002, CSE3152, CSE2060, CSE2015, CSE3087
 
 ## Project Structure
+```
 elective_system/
 │
 ├── .streamlit/
@@ -46,7 +47,7 @@ elective_system/
 ├── faculty.py          # Faculty viewing interface
 ├── main.xlsx           # Student records dataset
 └── requirements.txt     # Project dependencies
-
+```
 
 ## Setup Instructions
 
